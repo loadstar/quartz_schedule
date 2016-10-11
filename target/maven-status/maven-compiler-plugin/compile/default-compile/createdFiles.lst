@@ -1,0 +1,5 @@
+com\loadstar\demo\App.class
+com\loadstar\scheduling\MyBean.class
+com\loadstar\demo\HelloJob.class
+com\loadstar\demo\ScheduledJob.class
+com\loadstar\scheduling\AnotherBean.class
