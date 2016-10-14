@@ -7,14 +7,11 @@
 
     <dependencySets>
         <dependencySet>
-
             <unpack>false</unpack>
         </dependencySet>
     </dependencySets>
 
     <fileSets>
-
-
         <fileSet>
             <directory>${project.build.directory}</directory>
             <outputDirectory>lib</outputDirectory>

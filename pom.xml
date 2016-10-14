@@ -49,8 +49,8 @@
     </dependency>
 
   </dependencies>
-  <build>
 
+  <build>
       <plugins>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
@@ -84,8 +84,6 @@
             </execution>
           </executions>
         </plugin>
-
       </plugins>
-
   </build>
 </project>
