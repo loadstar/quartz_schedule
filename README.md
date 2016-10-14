@@ -2,3 +2,4 @@
 spring quartz schedule framework
 
 test push
+test pull
