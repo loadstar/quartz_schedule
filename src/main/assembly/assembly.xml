@@ -1,23 +1,28 @@
 <assembly>
-    <id>assembly</id>
-    <formats>
-        <format>zip</format>
-    </formats>
-    <includeBaseDirectory>false</includeBaseDirectory>
-
-    <dependencySets>
-        <dependencySet>
-            <unpack>false</unpack>
-        </dependencySet>
-    </dependencySets>
-
-    <fileSets>
-        <fileSet>
-            <directory>${project.build.directory}</directory>
-            <outputDirectory>lib</outputDirectory>
-            <includes>
-                <include>*.jar</include>
-            </includes>
-        </fileSet>
-    </fileSets>
+<id>bin</id>
+<formats>
+    <format>zip</format>
+</formats>
+<dependencySets>
+    <dependencySet>
+        <useProjectArtifact>true</useProjectArtifact>
+        <outputDirectory>lib</outputDirectory>
+    </dependencySet>
+</dependencySets>
+<fileSets>
+    <fileSet>
+        <outputDirectory>/</outputDirectory>
+        <includes>
+            <include>README.md</include>
+        </includes>
+    </fileSet>
+    <fileSet>
+        <directory>src/main/scripts</directory>
+        <outputDirectory>/bin</outputDirectory>
+        <includes>
+            <include>run.sh</include>
+            <include>run.bat</include>
+        </includes>
+    </fileSet>
+</fileSets>
 </assembly>
